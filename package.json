@@ -1,0 +1,19 @@
+{
+  "name": "my-node",
+  "version": "1.0.0",
+  "description": "JW API Scripts",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "kurt bauer",
+  "license": "ISC"
+}
